@@ -5,22 +5,22 @@ import java.util.Stack;
 
 public class Solution {
     public String removeDuplicates(String S) {
-        ArrayList<Character> characters  = new ArrayList<>();
-        for (int i = 0;i<S.length();i++){
-            if (characters.isEmpty()){
-                characters.add(S.charAt(i));
+        char[] s = S.toCharArray();
+        int i = -1;
+        if(s.length==1){
+            return S;
+        }
+
+        /**
+         * 只对同一数组进行操作，减少大量时间
+         */
+        for(Character c:s){
+            if(i>=0&&s[i]==c) {
+                i--;
             }else {
-                if (characters.get(characters.size()-1).equals(S.charAt(i))){
-                    characters.remove(characters.size()-1);
-                }else {
-                    characters.add(S.charAt(i));
-                }
+                s[++i]=c;
             }
         }
-        StringBuilder stringBuilder = new StringBuilder();
-        for (Character character:characters){
-            stringBuilder.append(character);
-        }
-        return stringBuilder.toString();
+        return String.valueOf(s,0,i+1);
     }
 }
