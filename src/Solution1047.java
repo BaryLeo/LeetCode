@@ -1,9 +1,4 @@
-package T1047;
-
-import java.util.ArrayList;
-import java.util.Stack;
-
-public class Solution {
+public class Solution1047 {
     public String removeDuplicates(String S) {
         char[] s = S.toCharArray();
         int i = -1;
