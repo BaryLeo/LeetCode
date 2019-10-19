@@ -1,9 +1,21 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
-        Solution860 solution860 = new Solution860();
-        int[] ar = new int[]{5,5,5,20,5,5,5,20,5,5,5,10,5,20,10,20,10,20,5,5};
-        System.out.println(solution860.lemonadeChange(ar));
+
+        ArrayList<Location> works = new ArrayList<>();
+        works.add(new Location(0,0));
+        works.add(new Location(1,1));
+        works.add(new Location(2,0));
+        ArrayList<Location> bikes = new ArrayList<>();
+        bikes.add(new Location(1,0));
+        bikes.add(new Location(2,2));
+        bikes.add(new Location(2,1));
+        Solution1057 solution = new Solution1057(works,bikes);
+        for (int i:solution.getPattern()){
+            System.out.println(i);
+        }
 
     }
 }
