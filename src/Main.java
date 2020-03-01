@@ -1,21 +1,29 @@
+import array.esay.Solution27;
+import s25.ListNode;
+import s25.Solution25;
+
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 public class Main {
 
     public static void main(String[] args) {
+        Solution25 solution25 = new Solution25();
 
-        ArrayList<Location> works = new ArrayList<>();
-        works.add(new Location(0,0));
-        works.add(new Location(1,1));
-        works.add(new Location(2,0));
-        ArrayList<Location> bikes = new ArrayList<>();
-        bikes.add(new Location(1,0));
-        bikes.add(new Location(2,2));
-        bikes.add(new Location(2,1));
-        Solution1057 solution = new Solution1057(works,bikes);
-        for (int i:solution.getPattern()){
-            System.out.println(i);
+        ListNode listNode = new ListNode(0);
+        ListNode next =listNode;
+        for (int i = 1;i<6;i++){
+            ListNode temp = new ListNode(i);
+            next.next = temp;
+            next = next.next;
         }
 
+
+
+        ListNode head = solution25.reverseKGroup(listNode,3);
+        while (head!=null){
+            System.out.println("用例结果:"+head.val);
+            head = head.next;
+        }
     }
 }
