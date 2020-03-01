@@ -9,6 +9,8 @@ public class Solution242 {
         }
         char[] str1 = s.toCharArray();
         char[] str2 = t.toCharArray();
+
+        //对数组进行排序，排序后查看是否一致即可
         Arrays.sort(str1);
         Arrays.sort(str2);
         return Arrays.equals(str1, str2);
