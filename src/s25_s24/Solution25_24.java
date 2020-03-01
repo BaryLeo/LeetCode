@@ -1,8 +1,9 @@
-package s25;
+package s25_s24;
 
-import java.util.*;
-
-public class Solution25 {
+/**
+ * 24,25的解题思路一致，24的K是固定的2而已
+ */
+public class Solution25_24 {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode myHead = new ListNode(-1);
         myHead.next = head;

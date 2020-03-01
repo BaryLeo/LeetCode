@@ -1,14 +1,10 @@
-import array.esay.Solution27;
-import s25.ListNode;
-import s25.Solution25;
-
-import java.util.ArrayList;
-import java.util.regex.Pattern;
+import s25_s24.ListNode;
+import s25_s24.Solution25_24;
 
 public class Main {
 
     public static void main(String[] args) {
-        Solution25 solution25 = new Solution25();
+        Solution25_24 solution25 = new Solution25_24();
 
         ListNode listNode = new ListNode(0);
         ListNode next =listNode;
