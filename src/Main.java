@@ -1,25 +1,24 @@
 import s25_s24.ListNode;
 import s25_s24.Solution25_24;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
-        Solution25_24 solution25 = new Solution25_24();
 
-        ListNode listNode = new ListNode(0);
-        ListNode next =listNode;
-        for (int i = 1;i<6;i++){
-            ListNode temp = new ListNode(i);
-            next.next = temp;
-            next = next.next;
-        }
+        Solution300 solution239 = new Solution300();
+        System.out.println(solution239.lengthOfLIS(new int[]{10,9,2,5,3,7,101,18}));
 
+//        Solution994 solution994 = new Solution994();
+//        int[][] m = {{2,1,1},{1,1,0},{0,1,1}};
+//        System.out.println(solution994.orangesRotting(m));
+    }
 
-
-        ListNode head = solution25.reverseKGroup(listNode,3);
-        while (head!=null){
-            System.out.println("用例结果:"+head.val);
-            head = head.next;
+    public static void printArray(int[] ar){
+        for (int i:ar){
+            System.out.println(i);
         }
     }
 }
