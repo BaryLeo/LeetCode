@@ -1,5 +1,3 @@
-package s25_s24;
-
 public class ListNode {
 
     public int val;
