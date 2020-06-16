@@ -1,16 +1,15 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
-        ListNode listNode1 = new ListNode(2);
-        listNode1.next = new ListNode(4);
-        listNode1.next.next = new ListNode(3);
+//        int[] ar = new int[]{2,3,-2,4};
+//        Solution152 solution152 = new Solution152();
+//        System.out.println(solution152.maxProduct(ar));
 
-        ListNode listNode2= new ListNode(5);
-        listNode2.next = new ListNode(6);
-        listNode2.next.next = new ListNode(4);
-
-        ListNode listNode = new Solution2().addTwoNumbers(listNode1,listNode2);
-        printLits(listNode);
+        Solution297 solution210 = new Solution297();
+        System.out.println(solution210.serialize(solution210.getTreeNode()));
+        System.out.println(solution210.serialize(solution210.deserialize(solution210.getStrData())));
     }
 
     public static void printArray(int[] ar){
