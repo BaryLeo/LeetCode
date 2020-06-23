@@ -1,3 +1,5 @@
+import s242.DO;
+
 import java.util.Arrays;
 
 public class Main {
@@ -6,10 +8,8 @@ public class Main {
 //        int[] ar = new int[]{2,3,-2,4};
 //        Solution152 solution152 = new Solution152();
 //        System.out.println(solution152.maxProduct(ar));
-
-        Solution297 solution210 = new Solution297();
-        System.out.println(solution210.serialize(solution210.getTreeNode()));
-        System.out.println(solution210.serialize(solution210.deserialize(solution210.getStrData())));
+        Solution67 solution67 = new Solution67();
+        System.out.println(solution67.addBinary("100","110010"));
     }
 
     public static void printArray(int[] ar){
