@@ -1,15 +1,14 @@
-import java.util.Arrays;
+import offer.Offer04;
+
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Main {
 
     public static void main(String[] args) {
-//        int[] ar = new int[]{2,3,-2,4};
-//        Solution152 solution152 = new Solution152();
-//        System.out.println(solution152.maxProduct(ar));
-
-        Solution297 solution210 = new Solution297();
-        System.out.println(solution210.serialize(solution210.getTreeNode()));
-        System.out.println(solution210.serialize(solution210.deserialize(solution210.getStrData())));
+      Solution105 solution105 = new Solution105();
+      System.out.println("普通类加载器："+solution105.getClass().getClassLoader());
+      System.out.println("加载器的父加载器"+solution105.getClass().getClassLoader().getParent());
+      System.out.println("加载器的加载器："+solution105.getClass().getClassLoader().getClass().getClassLoader());
     }
 
     public static void printArray(int[] ar){

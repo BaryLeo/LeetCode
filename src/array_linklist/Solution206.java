@@ -1,3 +1,5 @@
+package array_linklist;
+
 /**
  * 对第一个温度 23 度，堆栈为空，把它的下标压入堆栈；
  *
@@ -46,4 +48,12 @@ public class Solution206 {
         //因为我循环的条件是curr!=null，所以，pre就是反转后的头结点
         return pre;
     }
+}
+class ListNode {
+
+    public int val;
+
+    public ListNode next;
+
+    public ListNode(int x) { val = x; }
 }

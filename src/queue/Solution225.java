@@ -1,15 +1,15 @@
-package s225;
+package queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-public class MyStack {
+public class Solution225 {
 
     LinkedList<Integer> list;
 
     /** Initialize your data structure here. */
-    public MyStack() {
+    public Solution225() {
         list = new LinkedList<>();
     }
 
