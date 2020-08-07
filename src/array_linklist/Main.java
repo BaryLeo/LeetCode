@@ -1,5 +1,6 @@
 package array_linklist;
 
+import base.ListNode;
 import queue.Solution239;
 
 public class Main {

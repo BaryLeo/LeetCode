@@ -1,5 +1,8 @@
 package base;
 
+/**
+ * 快排，基础知识
+ */
 public class QuitSort {
 
     public void sort(int[] ar){
