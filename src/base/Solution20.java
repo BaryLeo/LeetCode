@@ -1,12 +1,18 @@
-import java.util.*;
+package base;
 
-public class Main {
+import java.util.LinkedList;
 
-    public static void main(String[] args) {
-        Main m= new Main();
-        System.out.println(m.isValid("()[{}"));
-    }
-
+/**
+ * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
+ * 有效字符串需满足：
+ *
+ * 左括号必须用相同类型的右括号闭合。
+ * 左括号必须以正确的顺序闭合。
+ * 注意空字符串可被认为是有效字符串。
+ *
+ * 没有遇到空字符的样例，如果是空字符，不入队即可
+ */
+public class Solution20 {
     public boolean isValid(String s) {
         LinkedList<Character> characters = new LinkedList<>();
         char[] cs = s.toCharArray();
@@ -28,5 +34,4 @@ public class Main {
         int count = a-b;
         return count==1|count==2||count==-1||count==-2;
     }
-
 }
