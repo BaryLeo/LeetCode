@@ -3,7 +3,6 @@ import sun.reflect.generics.tree.Tree;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 /**
  * 题目要求，找出超过半数的数字（一定超过半数，题目已强调）

@@ -1,19 +1,17 @@
 package base;
 
+/**
+ * 反转子链表
+ */
 public class Solution92 {
     //反正m到n个
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode listNode = new ListNode(0);
         listNode.next = head;
-        //题意是1基
-        int index = 1;
 
         ListNode pre = listNode;
-        ListNode cur = head;
-        while (index<m){
-            pre =cur;
-            cur = cur.next;
-            index++;
+        for(int i=0;i<m;i++){
+            pre =pre.next;
         }
 
         head = pre.next;
@@ -23,8 +21,9 @@ public class Solution92 {
             ListNode nex = head.next;
             //开始反转
             head.next = nex.next;
-            //指向子链表的头
+            //获取上一次的头
             nex.next = pre.next;
+            //设置新的头
             pre.next = nex;
         }
         return listNode.next;
