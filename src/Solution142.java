@@ -1,7 +1,3 @@
-package array_linklist;
-
-import base.ListNode;
-
 /**
  * 一个定理，快慢指针找到相遇的点'
  *

@@ -1,5 +1,3 @@
-package hash;
-
 import java.util.*;
 
 public class Solution15 {

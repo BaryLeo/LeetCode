@@ -1,3 +1,5 @@
+package exam;
+
 import java.util.Scanner;
 
 public class JD20200806 {

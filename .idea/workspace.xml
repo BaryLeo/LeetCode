@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59264ac-51c1-4ae6-afbb-6c9be55b6806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/Solution20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JD20200806.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/JD20200806.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MST01P06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/MST01P06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MST10P01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/MST10P01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintBinaryTree/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WY20200808.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/WY20200808.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_linklist/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_linklist/Solution141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution141.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_linklist/Solution142.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution142.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_linklist/Solution20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_linklist/Solution24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_linklist/Solution25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Solution20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Solution206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Solution92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution92.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash/HashMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash/Solution15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash/Solution18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Solution225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution225.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Solution232.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution232.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Solution239.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution239.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Solution703.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution703.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s242/DO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s242/Solution242.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s242/TO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/Solution235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution235.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/Solution236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution236.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/Solution98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution98.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/TreeNode.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +90,7 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hash.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +110,7 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,7 +279,7 @@
       <workItem from="1596787046608" duration="15757000" />
       <workItem from="1596870045792" duration="6121000" />
       <workItem from="1596970446071" duration="649000" />
-      <workItem from="1597136362253" duration="3502000" />
+      <workItem from="1597136362253" duration="4204000" />
     </task>
     <servers />
   </component>
@@ -274,18 +300,18 @@
     </state>
     <state x="621" y="257" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592466756148" />
     <state x="776" y="357" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589715069657" />
-    <state x="662" y="458" width="439" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595341779336">
+    <state x="662" y="458" width="439" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597143745521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="662" y="458" width="439" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1595341779336" />
+    <state x="662" y="458" width="439" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1597143745521" />
     <state x="107" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593949240010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="107" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1593949240010" />
-    <state x="998" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596804484607">
+    <state x="998" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597143370679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="998" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596804484607" />
+    <state x="998" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597143370679" />
     <state x="549" y="189" key="FileChooserDialogImpl" timestamp="1594969365656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -366,20 +392,6 @@
     <state x="634" y="354" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590588533363" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/Solution239.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hash/HashMain.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((Solution212)this).root.next" custom="Solution212" />

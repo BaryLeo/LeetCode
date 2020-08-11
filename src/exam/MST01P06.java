@@ -1,3 +1,5 @@
+package exam;
+
 public class MST01P06 {
     public String compressString(String S) {
         if (S.length()==0){

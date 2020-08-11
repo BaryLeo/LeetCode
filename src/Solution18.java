@@ -1,5 +1,3 @@
-package hash;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;

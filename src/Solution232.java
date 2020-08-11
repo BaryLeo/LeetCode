@@ -1,5 +1,3 @@
-package queue;
-
 import java.util.LinkedList;
 
 public class Solution232 {

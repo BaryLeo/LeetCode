@@ -1,7 +1,3 @@
-package array_linklist;
-
-import base.ListNode;
-
 /**
  * 快慢指针
  */
