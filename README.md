@@ -4,11 +4,21 @@
 
 ### 基础
 
-快排，冒泡排序，链表遍历，拓补排序
+**要求：想都不用想就能写出来并且百分百无错误**
+
+一维数组：快排，冒泡排序
+
+二维数组：深度优先搜索，广度优先搜索
+
+链表：遍历
+
+二叉树：前序遍历，后序遍历，中序遍历，层序遍历
+
+N叉树：深度优先搜索，广度优先搜索
 
 ### 基础刷题顺序
 
-刷题按顺序来，建议多刷几遍，直到非常熟悉为止，刷一遍能掌握大部分基础了
+**刷题只是比面基础多了边界问题，但能难倒很多人，刷题按顺序来，建议多刷几遍，直到非常熟悉为止，刷一遍能掌握大部分基础了**
 
 206->链表遍历以及反转
 
@@ -68,17 +78,77 @@
 
 #### 树的套路
 
+要有一个框架的思想，看下面的代码
+
+```java
+//除此之外，还有迭代的代码
+void traverse(TreeNode root) {
+	// 前序遍历
+	traverse(root.left)
+	// 中序遍历
+	traverse(root.right)
+	// 后序遍历
+}
+```
+
+无论是迭代还是递归，所有树的题目都是基于这个框架去写的，不信往下看一道hard题
+
+leetcode124题：
+
+```java
+int ans = INT_MIN;
+int oneSideMax(TreeNode* root) {
+	if (root == nullptr) return 0;
+	int left = max(0, oneSideMax(root->left));
+	int right = max(0, oneSideMax(root->right));
+	ans = max(ans, left + right + root->val);
+	return max(left, right) + root->val;
+}
+```
+
+其实也就是一个后续遍历嘛~再来一题
+
+LeetCode 105 题，难度Medium，了解二叉树的特性，这道题就特容易啦，如果不了解，先掌握前序遍历，中序遍历，后续遍历的特点，核心代码：
+
+```java
+//用前序遍历生成二叉树
+private TreeNode buildTree(int[] preorder, int[] inorder, long stop) {
+        //判断数组是否已遍历完成
+        if (pre==preorder.length){
+            return null;
+        }
+
+        //判断是否已完成中序遍历
+        if (inorder[in]==stop){
+            in++;
+            return null;
+        }
+        TreeNode root = new TreeNode(preorder[pre++]);
+        //完成先序遍历左子树
+        root.left = buildTree(preorder,inorder,root.val);
+        //中序遍历生成右子树
+        root.right = buildTree(preorder,inorder,stop);
+        return root;
+}
+```
+
+其实就是前序+中序的结合体~
+
+so，掌握好树的特点，不同树有不同的特点，然后就是遍历问题而已~~~~
+
 #### 动态规划的套路
 
 #### 回溯的套路
 
 ## src--leetcode题
 
-​	92题----链表反转II
+​	92题----链表反转II，链表的遍历
 
-​	206题----链表反转I
+​	206题----链表反转I，链表的遍历
 
 ​	130题----二维数组，广度优先搜索
+
+​	133题---图的广度优先搜索，深度优先搜索
 
 ## base--基础
 

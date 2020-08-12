@@ -6,7 +6,7 @@ public class Solution1057 {
 
     private int[] bikeStatus;
 
-    private Node[][] arr;
+    private Nodes[][] arr;
 
     private List<Location> worker;
 
@@ -23,7 +23,7 @@ public class Solution1057 {
 
         //采用散列表方式，每个工人对应一个桶，将桶中单车根据距离由小到大排序
         //node记录单车距离和单车编号
-        arr = new Node[worker.size()][bikes.size()];
+        arr = new Nodes[worker.size()][bikes.size()];
 
         //初始化单车和工人状态
         for (int i = 0;i<workerStatus.length;i++){
@@ -40,7 +40,7 @@ public class Solution1057 {
             for (int j = 0;j<bikes.size();j++){
                 //记录单车距离和单车编号
                 //第一个参数为距离，第二个参数为单车编号
-                arr[i][j]=new Node(getDistance(worker.get(i),bikes.get(j)),j);
+                arr[i][j]=new Nodes(getDistance(worker.get(i),bikes.get(j)),j);
             }
         }
 
@@ -81,13 +81,13 @@ public class Solution1057 {
      * @param right
      * @return
      */
-    private Node[] quickSort(Node[] ar,int left,int right){
+    private Nodes[] quickSort(Nodes[] ar,int left,int right){
         //如果left等于right，即数组只有一个元素，直接返回
         if(left>=right) {
             return ar;
         }
         //设置最左边的元素为基准值
-        Node key=ar[left];
+        Nodes key=ar[left];
         //数组中比key小的放在左边，比key大的放在右边，key值下标为i
         int i=left;
         int j=right;
@@ -102,7 +102,7 @@ public class Solution1057 {
             }
             //i和j指向的元素交换
             if(i<j){
-                Node temp=ar[i];
+                Nodes temp=ar[i];
                 ar[i]=ar[j];
                 ar[j]=temp;
             }
@@ -116,13 +116,13 @@ public class Solution1057 {
     }
 }
 
-class Node{
+class Nodes{
     private int distance;
 
     //单车编号
     private int bikeNum;
 
-    public Node(int distance, int bikeNum) {
+    public Nodes(int distance, int bikeNum) {
         this.distance = distance;
         this.bikeNum = bikeNum;
     }
