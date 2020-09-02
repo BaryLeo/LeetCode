@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59264ac-51c1-4ae6-afbb-6c9be55b6806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Solution153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution190.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution647.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/Offer07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/Offer11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/Offer42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Offer12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution746.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -296,7 +291,10 @@
       <workItem from="1597804101174" duration="5218000" />
       <workItem from="1597822132774" duration="8453000" />
       <workItem from="1598692540478" duration="3000" />
-      <workItem from="1598861690351" duration="7515000" />
+      <workItem from="1598861690351" duration="9310000" />
+      <workItem from="1598944738950" duration="9884000" />
+      <workItem from="1599033159437" duration="8000" />
+      <workItem from="1599034804064" duration="1721000" />
     </task>
     <servers />
   </component>
