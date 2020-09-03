@@ -2,12 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59264ac-51c1-4ae6-afbb-6c9be55b6806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Offer12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution746.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Offer12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution109.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution109.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution124.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution130.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution130.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution133.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution133.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution141.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution142.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution142.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution169.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution190.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution190.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution191.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution191.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution208.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution208.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution212.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution212.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution232.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution232.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution235.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution236.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution25_24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution25_24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution297.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution297.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution322.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution392.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution392.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution509.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution509.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution647.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution647.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution69.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution703.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution703.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution746.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution746.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution92.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution98.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution99.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution99.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/QuitSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/QuitSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/Bilibili20200813.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/Bilibili20200813.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/JD20200806.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/JD20200806.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/QXF20200816.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/QXF20200816.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/WY20200808.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam/WY20200808.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer10_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer10_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/Offer52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Offer52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offer/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/TreeNode.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +90,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -34,9 +100,35 @@
       </set>
     </option>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="512" />
+    <option name="y" value="110" />
+    <option name="width" value="1400" />
+    <option name="height" value="937" />
+  </component>
   <component name="ProjectId" id="1ZmhHOUVSqtqHOvqPr9tLlcT1mI" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,7 +140,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/j2ee/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,7 +149,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -65,6 +157,18 @@
       <recent name="offer" />
       <recent name="s25_s24" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.Main (2)">
     <configuration name="HashMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -295,8 +399,44 @@
       <workItem from="1598944738950" duration="9884000" />
       <workItem from="1599033159437" duration="8000" />
       <workItem from="1599034804064" duration="1721000" />
+      <workItem from="1599119667810" duration="44000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="260" y="43" width="1400" height="937" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
