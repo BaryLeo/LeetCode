@@ -7,7 +7,8 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 public class Main {
 
     public static void main(String[] args) {
-        Main m = new Main();
+        Solution931 solution931 = new Solution931();
+        solution931.minFallingPathSum(solution931.ar);
 
     }
 
