@@ -13,31 +13,30 @@ public class Solution322 {
      * @return
      */
     public int coinChange(int[] coins, int amount) {
-        if (amount==0||coins.length==0){
+        if (amount==0){
             return 0;
         }
         if (amount<0){
             return -1;
         }
-        int[] res = new int[amount+1];
-        //设定最大值
-        Arrays.fill(res,amount+1);
-        res[0]=0;
-        //自底向上走
-        for (int i =0;i<res.length;i++){
-            //dp(n) = 1+mindp(n-conis)
+
+        int[] dp = new int[amount+1];
+        //必须从1开始，不然dp[0]会赋值为Integer.MAX_VALUE
+        for (int price = 1;price <= amount;price++){
+            int min = Integer.MAX_VALUE;
             for (int coin:coins){
-                //排除不符合标准的
-                if (i-coin>=0&&res[i-coin]!=amount+1){
-                    res[i] = Math.min(res[i],1+res[i-coin]);
+                //price - coin >= 0，确保硬币金额小于当前金额
+                //price - dp[price-coin]>=0 确保路线可走
+                //dp[price - coin]<min 直接选择最小路线
+                if (price - coin >= 0 && price - dp[price-coin]>=0 && dp[price - coin]<min){
+                    //要在这里+1,不然会溢出
+                    min = dp[price-coin]+1;
                 }
             }
+            dp[price] = min;
         }
 
-        if(res[amount]==amount+1){
-            return -1;
-        }
-        return res[amount];
+        return Integer.MAX_VALUE == dp[amount]?-1:dp[amount];
     }
 
     /**
